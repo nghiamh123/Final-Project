@@ -1,6 +1,6 @@
 ﻿namespace FinalProject
 {
-    partial class Form1
+    partial class ForgetPass
     {
         /// <summary>
         /// Required designer variable.
