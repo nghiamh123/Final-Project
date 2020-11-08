@@ -23,5 +23,10 @@ namespace FinalProject
             this.Hide();
             dangKy.ShowDialog();
         }
+
+        private void btnForget_Click(object sender, EventArgs e)
+        {
+            //comment
+        }
     }
 }
