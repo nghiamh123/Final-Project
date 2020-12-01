@@ -1,0 +1,11 @@
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.dll.config
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.dll
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.pdb
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\EntityFramework.dll
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\EntityFramework.SqlServer.dll
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\EntityFramework.xml
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\EntityFramework.SqlServer.xml
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CoreCompileInputs.cache
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CopyComplete
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.dll
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.pdb

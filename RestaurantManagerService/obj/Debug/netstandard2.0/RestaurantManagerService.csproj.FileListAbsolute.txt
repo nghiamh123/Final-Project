@@ -1,0 +1,9 @@
+F:\CNPM\PJCK\FinalProject\RestaurantManagerService\bin\Debug\netstandard2.0\RestaurantManagerService.deps.json
+F:\CNPM\PJCK\FinalProject\RestaurantManagerService\bin\Debug\netstandard2.0\RestaurantManagerService.dll
+F:\CNPM\PJCK\FinalProject\RestaurantManagerService\bin\Debug\netstandard2.0\RestaurantManagerService.pdb
+F:\CNPM\PJCK\FinalProject\RestaurantManagerService\obj\Debug\netstandard2.0\RestaurantManagerService.csprojAssemblyReference.cache
+F:\CNPM\PJCK\FinalProject\RestaurantManagerService\obj\Debug\netstandard2.0\RestaurantManagerService.AssemblyInfoInputs.cache
+F:\CNPM\PJCK\FinalProject\RestaurantManagerService\obj\Debug\netstandard2.0\RestaurantManagerService.AssemblyInfo.cs
+F:\CNPM\PJCK\FinalProject\RestaurantManagerService\obj\Debug\netstandard2.0\RestaurantManagerService.csproj.CoreCompileInputs.cache
+F:\CNPM\PJCK\FinalProject\RestaurantManagerService\obj\Debug\netstandard2.0\RestaurantManagerService.dll
+F:\CNPM\PJCK\FinalProject\RestaurantManagerService\obj\Debug\netstandard2.0\RestaurantManagerService.pdb

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2684cfe0af074694b21feabcec0174eb" Name="Diagram1">
+        <EntityTypeShape EntityType="RestaurantManagerModel.Account" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantManagerModel.Bill" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantManagerModel.Bill_info" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantManagerModel.CategoriesDrink" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantManagerModel.CategoriesFood" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantManagerModel.Drink" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantManagerModel.Food" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantManagerModel.TalbleFood" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="RestaurantManagerModel.FK__Bill__status__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantManagerModel.FK__Bill_info__count__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantManagerModel.FK__Bill_info__id_dr__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantManagerModel.FK__Bill_info__id_fo__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantManagerModel.FK__Drink__price__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantManagerModel.FK__Food__price__2C3393D0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
