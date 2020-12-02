@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestaurantManagerSevice;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace FinalProject
         public Main()
         {
             InitializeComponent();
+            
         }
 
         private void xemThôngTinToolStripMenuItem_Click(object sender, EventArgs e)
@@ -41,6 +43,12 @@ namespace FinalProject
             DanhSachMon danhSachMon = new DanhSachMon();
             danhSachMon.ShowDialog();
             this.Show();
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            Account ac = Login.NV;
+            lbName.Text = ac.name;
         }
     }
 }

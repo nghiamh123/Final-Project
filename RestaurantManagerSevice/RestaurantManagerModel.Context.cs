@@ -13,10 +13,10 @@ namespace RestaurantManagerSevice
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class RestaurantManagerEntities : DbContext
+    public partial class RestaurantManagerEntities1 : DbContext
     {
-        public RestaurantManagerEntities()
-            : base("name=RestaurantManagerEntities")
+        public RestaurantManagerEntities1()
+            : base("name=RestaurantManagerEntities1")
         {
         }
     
@@ -28,9 +28,7 @@ namespace RestaurantManagerSevice
         public virtual DbSet<Account> Accounts { get; set; }
         public virtual DbSet<Bill> Bills { get; set; }
         public virtual DbSet<Bill_info> Bill_info { get; set; }
-        public virtual DbSet<CategoriesDrink> CategoriesDrinks { get; set; }
         public virtual DbSet<CategoriesFood> CategoriesFoods { get; set; }
-        public virtual DbSet<Drink> Drinks { get; set; }
         public virtual DbSet<Food> Foods { get; set; }
         public virtual DbSet<TalbleFood> TalbleFoods { get; set; }
     }

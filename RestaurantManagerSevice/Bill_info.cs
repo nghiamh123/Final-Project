@@ -18,13 +18,10 @@ namespace RestaurantManagerSevice
         public Nullable<int> id_bill { get; set; }
         public string customer_name { get; set; }
         public string employee_name { get; set; }
-        public Nullable<int> id_drink { get; set; }
         public Nullable<int> id_food { get; set; }
         public Nullable<double> count_food { get; set; }
-        public Nullable<double> count_drink { get; set; }
     
         public virtual Bill Bill { get; set; }
-        public virtual Drink Drink { get; set; }
         public virtual Food Food { get; set; }
     }
 }

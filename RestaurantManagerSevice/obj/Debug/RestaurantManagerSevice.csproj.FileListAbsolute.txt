@@ -9,4 +9,3 @@ F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSev
 F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CopyComplete
 F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.dll
 F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.pdb
-F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csprojAssemblyReference.cache

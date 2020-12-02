@@ -9,7 +9,7 @@ namespace RestaurantManagerSevice
  
     public class FoodService
     {
-        RestaurantManagerEntities db = new RestaurantManagerEntities();
+        RestaurantManagerEntities1 db = new RestaurantManagerEntities1();
         public List<Food> getAllFood()
         {
             var listFood = db.Foods.ToList();

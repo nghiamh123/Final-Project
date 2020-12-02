@@ -13,6 +13,7 @@ namespace FinalProject
 {
     public partial class Login : Form
     {
+        public static Account NV;
         public Login()
         {
             InitializeComponent();
@@ -25,8 +26,8 @@ namespace FinalProject
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            String txtUsername = tbTaiKhoan.Text.ToString();
-            String txtPass = tbMatKhau.Text.ToString();
+            String txtUsername = tbTaiKhoan.Text;
+            String txtPass = tbMatKhau.Text;
             if(txtUsername == "")
             {
                 MessageBox.Show("Vui lòng nhập tên tài khoản");
@@ -41,6 +42,7 @@ namespace FinalProject
                 Account ac = account.login(txtUsername, txtPass);
                 if(ac != null)
                 {
+                    NV = ac;
                     if(ac.role == 0)
                     {
                         Main main = new Main();

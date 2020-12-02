@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestaurantManagerSevice;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,6 +29,12 @@ namespace FinalProject
             this.Hide();
             thanhToan.ShowDialog();
             this.Show();
+        }
+
+        private void MainThuNgan_Load(object sender, EventArgs e)
+        {
+            Account ac = Login.NV;
+            lbNameTN.Text = ac.name;
         }
     }
 }

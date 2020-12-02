@@ -8,7 +8,7 @@ namespace RestaurantManagerSevice
 {
     public class AccountSevice
     {
-        RestaurantManagerEntities db = new RestaurantManagerEntities();
+        RestaurantManagerEntities1 db = new RestaurantManagerEntities1();
         public Account login(String username,String pass)
         {
             Account account =(from ac in db.Accounts where ac.username == username && ac.pass == pass select ac).FirstOrDefault();

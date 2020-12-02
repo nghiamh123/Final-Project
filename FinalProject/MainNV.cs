@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestaurantManagerSevice;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace FinalProject
 {
     public partial class MainNV : Form
     {
+        public static Account account;
         public MainNV()
         {
             InitializeComponent();
@@ -20,6 +22,8 @@ namespace FinalProject
         private void MainNV_Load(object sender, EventArgs e)
         {
 
+            account = Login.NV;
+            lbNameNV.Text = account.name;
         }
 
         private void orderToolStripMenuItem_Click(object sender, EventArgs e)
@@ -29,5 +33,7 @@ namespace FinalProject
             order.ShowDialog();
             this.Show();
         }
+
+      
     }
 }
