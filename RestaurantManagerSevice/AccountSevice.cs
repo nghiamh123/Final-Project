@@ -20,5 +20,11 @@ namespace RestaurantManagerSevice
             var list = db.Accounts.Where(ac => ac.role != 0);
             return list.ToList();
         }
+
+        public void addNV(Account account)
+        {
+            db.Accounts.Add(account);
+            db.SaveChanges();
+        }
     }
 }

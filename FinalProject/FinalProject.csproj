@@ -55,12 +55,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DangKy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DangKy.Designer.cs">
-      <DependentUpon>DangKy.cs</DependentUpon>
-    </Compile>
     <Compile Include="QuanLyKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,9 +129,6 @@
     <Compile Include="XemHoaDon.Designer.cs">
       <DependentUpon>XemHoaDon.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="DangKy.resx">
-      <DependentUpon>DangKy.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DanhSachMon.resx">
       <DependentUpon>DanhSachMon.cs</DependentUpon>
     </EmbeddedResource>

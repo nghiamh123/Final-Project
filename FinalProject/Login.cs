@@ -18,14 +18,6 @@ namespace FinalProject
             InitializeComponent();
         }
 
-        private void btnDangKy_Click(object sender, EventArgs e)
-        {
-            DangKy dangKy = new DangKy();
-            this.Hide();
-            dangKy.ShowDialog();
-            this.Show();
-        }
-
         private void btnForget_Click(object sender, EventArgs e)
         {
             //comment
@@ -55,6 +47,22 @@ namespace FinalProject
                         this.Hide();
                         main.ShowDialog();
                         this.Show();
+                    }else if(ac.role == 1)
+                    {
+                        MainThuNgan mainThuNgan = new MainThuNgan();
+                        this.Hide();
+                        mainThuNgan.ShowDialog();
+                        this.Show();
+                    }else if(ac.role == 2)
+                    {
+                        MainNV mainNV = new MainNV();
+                        this.Hide();
+                        mainNV.ShowDialog();
+                        this.Show();
+
+                    }else
+                    {
+
                     }
                 }
                 else

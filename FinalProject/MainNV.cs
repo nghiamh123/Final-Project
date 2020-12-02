@@ -21,5 +21,13 @@ namespace FinalProject
         {
 
         }
+
+        private void orderToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Order order = new Order();
+            this.Hide();
+            order.ShowDialog();
+            this.Show();
+        }
     }
 }

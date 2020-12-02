@@ -16,7 +16,6 @@ F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\FinalProject.exe.config
 F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\FinalProject.exe
 F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\FinalProject.pdb
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache
-F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.DangKy.resources
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.DanhSachMon.resources
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.Informations.resources
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.Login.resources
