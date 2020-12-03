@@ -1,0 +1,72 @@
+C:\Users\PC\source\repos\FinalProject\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\PC\source\repos\FinalProject\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\PC\source\repos\FinalProject\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.Login.resources
+C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.exe
+C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.DangKy.resources
+C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.ForgetPass.resources
+C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.Main.resources
+C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.ThongTinNV.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\FinalProject.exe.config
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\FinalProject.exe
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\FinalProject.pdb
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.DanhSachMon.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.Informations.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.Login.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.Main.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.MainDauBep.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.MainNV.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.MainThuNgan.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.Order.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.QuanLyKhachHang.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.ThanhToan.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.ThongTinNV.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.XemHoaDon.resources
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.exe
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.pdb
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\EntityFramework.dll
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\EntityFramework.SqlServer.dll
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\RestaurantManagerSevice.dll
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\EntityFramework.xml
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\EntityFramework.SqlServer.xml
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\RestaurantManagerSevice.pdb
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\RestaurantManagerSevice.dll.config
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\FinalProject.exe.config
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\FinalProject.exe
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\FinalProject.pdb
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\EntityFramework.dll
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\EntityFramework.SqlServer.dll
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\RestaurantManagerSevice.dll
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\EntityFramework.xml
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\EntityFramework.SqlServer.xml
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\RestaurantManagerSevice.pdb
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\RestaurantManagerSevice.dll.config
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.DanhSachMon.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.Informations.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.Login.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.Main.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.MainDauBep.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.MainNV.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.MainThuNgan.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.Order.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.QuanLyKhachHang.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.ThanhToan.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.ThongTinNV.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.XemHoaDon.resources
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.exe
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.pdb

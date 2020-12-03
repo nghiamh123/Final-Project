@@ -1,0 +1,23 @@
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.dll.config
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.dll
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.pdb
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\EntityFramework.dll
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\EntityFramework.SqlServer.dll
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\EntityFramework.xml
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\bin\Debug\EntityFramework.SqlServer.xml
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CoreCompileInputs.cache
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CopyComplete
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.dll
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.pdb
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.dll.config
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.dll
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.pdb
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\bin\Debug\EntityFramework.dll
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\bin\Debug\EntityFramework.SqlServer.dll
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\bin\Debug\EntityFramework.xml
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\bin\Debug\EntityFramework.SqlServer.xml
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csprojAssemblyReference.cache
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CoreCompileInputs.cache
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CopyComplete
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.dll
+E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.pdb

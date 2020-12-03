@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="RestaurantManagerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="pass" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="role" Type="int" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="phone" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="address" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="email" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="gioitinh" Type="bit" Nullable="false" />
+          <Property Name="ngaysinh" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Bill">
+          <Key>
+            <PropertyRef Name="id_bill" />
+          </Key>
+          <Property Name="id_bill" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Datecheckin" Type="date" Nullable="false" />
+          <Property Name="Datecheckout" Type="date" />
+          <Property Name="id_table" Type="int" />
+          <Property Name="status" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Bill_info">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_bill" Type="int" />
+          <Property Name="customer_name" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="employee_name" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="id_food" Type="int" />
+          <Property Name="count_food" Type="float" />
+        </EntityType>
+        <EntityType Name="CategoriesFood">
+          <Key>
+            <PropertyRef Name="id_category" />
+          </Key>
+          <Property Name="id_category" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="category" Type="nvarchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Food">
+          <Key>
+            <PropertyRef Name="id_food" />
+          </Key>
+          <Property Name="id_food" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="foodname" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="id_category" Type="int" Nullable="false" />
+          <Property Name="price" Type="float" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TalbleFood">
+          <Key>
+            <PropertyRef Name="id_table" />
+          </Key>
+          <Property Name="id_table" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="status" Type="bit" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Bill__status__30F848ED">
+          <End Role="TalbleFood" Type="Self.TalbleFood" Multiplicity="0..1" />
+          <End Role="Bill" Type="Self.Bill" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TalbleFood">
+              <PropertyRef Name="id_table" />
+            </Principal>
+            <Dependent Role="Bill">
+              <PropertyRef Name="id_table" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bill_info__count__34C8D9D1">
+          <End Role="Bill" Type="Self.Bill" Multiplicity="0..1" />
+          <End Role="Bill_info" Type="Self.Bill_info" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bill">
+              <PropertyRef Name="id_bill" />
+            </Principal>
+            <Dependent Role="Bill_info">
+              <PropertyRef Name="id_bill" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bill_info__id_fo__35BCFE0A">
+          <End Role="Food" Type="Self.Food" Multiplicity="0..1" />
+          <End Role="Bill_info" Type="Self.Bill_info" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Food">
+              <PropertyRef Name="id_food" />
+            </Principal>
+            <Dependent Role="Bill_info">
+              <PropertyRef Name="id_food" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Food__price__2C3393D0">
+          <End Role="CategoriesFood" Type="Self.CategoriesFood" Multiplicity="1" />
+          <End Role="Food" Type="Self.Food" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CategoriesFood">
+              <PropertyRef Name="id_category" />
+            </Principal>
+            <Dependent Role="Food">
+              <PropertyRef Name="id_category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="RestaurantManagerModelStoreContainer">
+          <EntitySet Name="Account" EntityType="Self.Account" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Bill" EntityType="Self.Bill" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Bill_info" EntityType="Self.Bill_info" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CategoriesFood" EntityType="Self.CategoriesFood" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Food" EntityType="Self.Food" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TalbleFood" EntityType="Self.TalbleFood" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Bill__status__30F848ED" Association="Self.FK__Bill__status__30F848ED">
+            <End Role="TalbleFood" EntitySet="TalbleFood" />
+            <End Role="Bill" EntitySet="Bill" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bill_info__count__34C8D9D1" Association="Self.FK__Bill_info__count__34C8D9D1">
+            <End Role="Bill" EntitySet="Bill" />
+            <End Role="Bill_info" EntitySet="Bill_info" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bill_info__id_fo__35BCFE0A" Association="Self.FK__Bill_info__id_fo__35BCFE0A">
+            <End Role="Food" EntitySet="Food" />
+            <End Role="Bill_info" EntitySet="Bill_info" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Food__price__2C3393D0" Association="Self.FK__Food__price__2C3393D0">
+            <End Role="CategoriesFood" EntitySet="CategoriesFood" />
+            <End Role="Food" EntitySet="Food" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RestaurantManagerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="username" />
+          </Key>
+          <Property Name="username" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="pass" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="role" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="phone" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="address" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="gioitinh" Type="Boolean" Nullable="false" />
+          <Property Name="ngaysinh" Type="DateTime" Nullable="false" Precision="0" />
+        </EntityType>
+        <EntityType Name="Bill">
+          <Key>
+            <PropertyRef Name="id_bill" />
+          </Key>
+          <Property Name="id_bill" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Datecheckin" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Datecheckout" Type="DateTime" Precision="0" />
+          <Property Name="id_table" Type="Int32" />
+          <Property Name="status" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="TalbleFood" Relationship="Self.FK__Bill__status__30F848ED" FromRole="Bill" ToRole="TalbleFood" />
+          <NavigationProperty Name="Bill_info" Relationship="Self.FK__Bill_info__count__34C8D9D1" FromRole="Bill" ToRole="Bill_info" />
+        </EntityType>
+        <EntityType Name="Bill_info">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_bill" Type="Int32" />
+          <Property Name="customer_name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="employee_name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="id_food" Type="Int32" />
+          <Property Name="count_food" Type="Double" />
+          <NavigationProperty Name="Bill" Relationship="Self.FK__Bill_info__count__34C8D9D1" FromRole="Bill_info" ToRole="Bill" />
+          <NavigationProperty Name="Food" Relationship="Self.FK__Bill_info__id_fo__35BCFE0A" FromRole="Bill_info" ToRole="Food" />
+        </EntityType>
+        <EntityType Name="CategoriesFood">
+          <Key>
+            <PropertyRef Name="id_category" />
+          </Key>
+          <Property Name="id_category" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="category" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Foods" Relationship="Self.FK__Food__price__2C3393D0" FromRole="CategoriesFood" ToRole="Food" />
+        </EntityType>
+        <EntityType Name="Food">
+          <Key>
+            <PropertyRef Name="id_food" />
+          </Key>
+          <Property Name="id_food" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="foodname" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="id_category" Type="Int32" Nullable="false" />
+          <Property Name="price" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Bill_info" Relationship="Self.FK__Bill_info__id_fo__35BCFE0A" FromRole="Food" ToRole="Bill_info" />
+          <NavigationProperty Name="CategoriesFood" Relationship="Self.FK__Food__price__2C3393D0" FromRole="Food" ToRole="CategoriesFood" />
+        </EntityType>
+        <EntityType Name="TalbleFood">
+          <Key>
+            <PropertyRef Name="id_table" />
+          </Key>
+          <Property Name="id_table" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="status" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Bills" Relationship="Self.FK__Bill__status__30F848ED" FromRole="TalbleFood" ToRole="Bill" />
+        </EntityType>
+        <Association Name="FK__Bill__status__30F848ED">
+          <End Role="TalbleFood" Type="Self.TalbleFood" Multiplicity="0..1" />
+          <End Role="Bill" Type="Self.Bill" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TalbleFood">
+              <PropertyRef Name="id_table" />
+            </Principal>
+            <Dependent Role="Bill">
+              <PropertyRef Name="id_table" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bill_info__count__34C8D9D1">
+          <End Role="Bill" Type="Self.Bill" Multiplicity="0..1" />
+          <End Role="Bill_info" Type="Self.Bill_info" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bill">
+              <PropertyRef Name="id_bill" />
+            </Principal>
+            <Dependent Role="Bill_info">
+              <PropertyRef Name="id_bill" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Bill_info__id_fo__35BCFE0A">
+          <End Role="Food" Type="Self.Food" Multiplicity="0..1" />
+          <End Role="Bill_info" Type="Self.Bill_info" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Food">
+              <PropertyRef Name="id_food" />
+            </Principal>
+            <Dependent Role="Bill_info">
+              <PropertyRef Name="id_food" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Food__price__2C3393D0">
+          <End Role="CategoriesFood" Type="Self.CategoriesFood" Multiplicity="1" />
+          <End Role="Food" Type="Self.Food" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CategoriesFood">
+              <PropertyRef Name="id_category" />
+            </Principal>
+            <Dependent Role="Food">
+              <PropertyRef Name="id_category" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="RestaurantManagerEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accounts" EntityType="Self.Account" />
+          <EntitySet Name="Bills" EntityType="Self.Bill" />
+          <EntitySet Name="Bill_info" EntityType="Self.Bill_info" />
+          <EntitySet Name="CategoriesFoods" EntityType="Self.CategoriesFood" />
+          <EntitySet Name="Foods" EntityType="Self.Food" />
+          <EntitySet Name="TalbleFoods" EntityType="Self.TalbleFood" />
+          <AssociationSet Name="FK__Bill__status__30F848ED" Association="Self.FK__Bill__status__30F848ED">
+            <End Role="TalbleFood" EntitySet="TalbleFoods" />
+            <End Role="Bill" EntitySet="Bills" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bill_info__count__34C8D9D1" Association="Self.FK__Bill_info__count__34C8D9D1">
+            <End Role="Bill" EntitySet="Bills" />
+            <End Role="Bill_info" EntitySet="Bill_info" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Bill_info__id_fo__35BCFE0A" Association="Self.FK__Bill_info__id_fo__35BCFE0A">
+            <End Role="Food" EntitySet="Foods" />
+            <End Role="Bill_info" EntitySet="Bill_info" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Food__price__2C3393D0" Association="Self.FK__Food__price__2C3393D0">
+            <End Role="CategoriesFood" EntitySet="CategoriesFoods" />
+            <End Role="Food" EntitySet="Foods" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="RestaurantManagerModelStoreContainer" CdmEntityContainer="RestaurantManagerEntities1">
+          <EntitySetMapping Name="Accounts">
+            <EntityTypeMapping TypeName="RestaurantManagerModel.Account">
+              <MappingFragment StoreEntitySet="Account">
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="pass" ColumnName="pass" />
+                <ScalarProperty Name="role" ColumnName="role" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="address" ColumnName="address" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+                <ScalarProperty Name="ngaysinh" ColumnName="ngaysinh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Bills">
+            <EntityTypeMapping TypeName="RestaurantManagerModel.Bill">
+              <MappingFragment StoreEntitySet="Bill">
+                <ScalarProperty Name="id_bill" ColumnName="id_bill" />
+                <ScalarProperty Name="Datecheckin" ColumnName="Datecheckin" />
+                <ScalarProperty Name="Datecheckout" ColumnName="Datecheckout" />
+                <ScalarProperty Name="id_table" ColumnName="id_table" />
+                <ScalarProperty Name="status" ColumnName="status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Bill_info">
+            <EntityTypeMapping TypeName="RestaurantManagerModel.Bill_info">
+              <MappingFragment StoreEntitySet="Bill_info">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_bill" ColumnName="id_bill" />
+                <ScalarProperty Name="customer_name" ColumnName="customer_name" />
+                <ScalarProperty Name="employee_name" ColumnName="employee_name" />
+                <ScalarProperty Name="id_food" ColumnName="id_food" />
+                <ScalarProperty Name="count_food" ColumnName="count_food" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CategoriesFoods">
+            <EntityTypeMapping TypeName="RestaurantManagerModel.CategoriesFood">
+              <MappingFragment StoreEntitySet="CategoriesFood">
+                <ScalarProperty Name="id_category" ColumnName="id_category" />
+                <ScalarProperty Name="category" ColumnName="category" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Foods">
+            <EntityTypeMapping TypeName="RestaurantManagerModel.Food">
+              <MappingFragment StoreEntitySet="Food">
+                <ScalarProperty Name="id_food" ColumnName="id_food" />
+                <ScalarProperty Name="foodname" ColumnName="foodname" />
+                <ScalarProperty Name="id_category" ColumnName="id_category" />
+                <ScalarProperty Name="price" ColumnName="price" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TalbleFoods">
+            <EntityTypeMapping TypeName="RestaurantManagerModel.TalbleFood">
+              <MappingFragment StoreEntitySet="TalbleFood">
+                <ScalarProperty Name="id_table" ColumnName="id_table" />
+                <ScalarProperty Name="status" ColumnName="status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
