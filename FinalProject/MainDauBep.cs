@@ -16,5 +16,21 @@ namespace FinalProject
         {
             InitializeComponent();
         }
+
+        private void xemThôngTinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Informations informations = new Informations();
+            this.Hide();
+            informations.ShowDialog();
+            this.Show();
+        }
+
+        private void xemHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            XemHoaDon xemHoaDon = new XemHoaDon();
+            this.Hide();
+            xemHoaDon.ShowDialog();
+            this.Show();
+        }
     }
 }

@@ -13,6 +13,7 @@ namespace FinalProject
 {
     public partial class MainThuNgan : Form
     {
+        public static Account account;
         public MainThuNgan()
         {
             InitializeComponent();
@@ -33,8 +34,16 @@ namespace FinalProject
 
         private void MainThuNgan_Load(object sender, EventArgs e)
         {
-            Account ac = Login.NV;
-            lbNameTN.Text = ac.name;
+            account = Login.NV;
+            lbNameTN.Text = account.name;
+        }
+
+        private void xemThôngTinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Informations informations = new Informations();
+            this.Hide();
+            informations.ShowDialog();
+            this.Show();
         }
     }
 }

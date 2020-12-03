@@ -84,6 +84,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RestaurantManagerModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="TableService.cs" />
     <Compile Include="TalbleFood.cs">
       <DependentUpon>RestaurantManagerModel.tt</DependentUpon>
     </Compile>

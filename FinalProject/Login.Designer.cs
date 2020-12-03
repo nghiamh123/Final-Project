@@ -61,11 +61,11 @@
             this.tbTaiKhoan.Font = new System.Drawing.Font("Bell MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTaiKhoan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbTaiKhoan.Location = new System.Drawing.Point(211, 315);
-            this.tbTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.tbTaiKhoan.Name = "tbTaiKhoan";
             this.tbTaiKhoan.Size = new System.Drawing.Size(284, 22);
             this.tbTaiKhoan.TabIndex = 3;
-            this.tbTaiKhoan.TextChanged += new System.EventHandler(this.tbTaiKhoan_TextChanged);
+            
             // 
             // tbMatKhau
             // 
@@ -73,7 +73,7 @@
             this.tbMatKhau.Font = new System.Drawing.Font("Bell MT", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbMatKhau.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbMatKhau.Location = new System.Drawing.Point(211, 409);
-            this.tbMatKhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbMatKhau.Margin = new System.Windows.Forms.Padding(4);
             this.tbMatKhau.Name = "tbMatKhau";
             this.tbMatKhau.Size = new System.Drawing.Size(284, 22);
             this.tbMatKhau.TabIndex = 4;
@@ -85,7 +85,7 @@
             this.btnDangNhap.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangNhap.ForeColor = System.Drawing.Color.White;
             this.btnDangNhap.Location = new System.Drawing.Point(161, 470);
-            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(333, 41);
             this.btnDangNhap.TabIndex = 5;
@@ -109,7 +109,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel1.Location = new System.Drawing.Point(161, 347);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(333, 1);
             this.panel1.TabIndex = 10;
@@ -118,7 +118,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel2.Location = new System.Drawing.Point(161, 441);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(333, 1);
             this.panel2.TabIndex = 10;
@@ -127,7 +127,7 @@
             // 
             this.pictureBox3.Image = global::FinalProject.Properties.Resources.kisspng_computer_icons_password_portable_network_graphics_user_dashboard_5c57ecf8d61433_6078174815492661688769;
             this.pictureBox3.Location = new System.Drawing.Point(161, 394);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(41, 39);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -138,7 +138,7 @@
             // 
             this.pictureBox2.Image = global::FinalProject.Properties.Resources.user_icon_png_pnglogocom_133466;
             this.pictureBox2.Location = new System.Drawing.Point(161, 300);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(41, 39);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -149,7 +149,7 @@
             // 
             this.pictureBox1.Image = global::FinalProject.Properties.Resources.LOGOTDTU;
             this.pictureBox1.Location = new System.Drawing.Point(235, 55);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(164, 80);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -173,7 +173,7 @@
             this.Controls.Add(this.tbTaiKhoan);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Login";
             this.Text = "Form1";

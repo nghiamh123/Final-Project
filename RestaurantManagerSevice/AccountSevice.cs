@@ -26,5 +26,10 @@ namespace RestaurantManagerSevice
             db.Accounts.Add(account);
             db.SaveChanges();
         }
+
+        public List<Account> GetAccountsBySearch(String find)
+        {
+            return db.Accounts.Where(ac => ac.username.ToLower().StartsWith(find.ToLower())).ToList();
+        }
     }
 }

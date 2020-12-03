@@ -17,6 +17,7 @@ namespace FinalProject
         public Login()
         {
             InitializeComponent();
+            tbMatKhau.PasswordChar = '*';
         }
 
         private void btnForget_Click(object sender, EventArgs e)
@@ -64,7 +65,10 @@ namespace FinalProject
 
                     }else
                     {
-
+                        MainDauBep mainDauBep = new MainDauBep();
+                        this.Hide();
+                        mainDauBep.ShowDialog();
+                        this.Show();
                     }
                 }
                 else
@@ -72,11 +76,6 @@ namespace FinalProject
                     MessageBox.Show("Sai tài khoản hoặc mật khẩu");
                 }
             }
-        }
-
-        private void tbTaiKhoan_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

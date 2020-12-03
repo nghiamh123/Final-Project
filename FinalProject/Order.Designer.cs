@@ -63,6 +63,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.tbNameNV = new System.Windows.Forms.TextBox();
             this.btnXacNhan = new System.Windows.Forms.Button();
+            this.btnTable = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgList)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -417,11 +418,22 @@
             this.btnXacNhan.UseVisualStyleBackColor = true;
             this.btnXacNhan.Click += new System.EventHandler(this.btnXacNhan_Click);
             // 
+            // btnTable
+            // 
+            this.btnTable.Location = new System.Drawing.Point(715, 191);
+            this.btnTable.Name = "btnTable";
+            this.btnTable.Size = new System.Drawing.Size(75, 23);
+            this.btnTable.TabIndex = 17;
+            this.btnTable.Text = "Bàn";
+            this.btnTable.UseVisualStyleBackColor = true;
+            this.btnTable.Click += new System.EventHandler(this.btnTable_Click);
+            // 
             // Order
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1134, 599);
+            this.Controls.Add(this.btnTable);
             this.Controls.Add(this.btnXacNhan);
             this.Controls.Add(this.tbNameNV);
             this.Controls.Add(this.label12);
@@ -491,5 +503,6 @@
         private System.Windows.Forms.DateTimePicker dtCheckin;
         private System.Windows.Forms.TextBox tbID;
         private System.Windows.Forms.Button btnXacNhan;
+        private System.Windows.Forms.Button btnTable;
     }
 }

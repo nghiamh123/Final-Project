@@ -31,6 +31,12 @@ namespace FinalProject
             dtgList.DataSource = hoaDonService.getAllBill();
         }
 
+        private void LoadListTable()
+        {
+            TableService tableService = new TableService();
+            dtgList.DataSource = tableService.getTable();
+        }
+
         private void Order_Load(object sender, EventArgs e)
         {
             Account ac = MainNV.account;
@@ -52,9 +58,14 @@ namespace FinalProject
             DateTime checkIn = dtCheckin.Value;
             int table = Int32.Parse(tbTable.Text);
 
-            Bill bill = new Bill { Datecheckin = checkIn, id_table = table, status = 1 };
+            Bill bill = new Bill { Datecheckin = checkIn, id_table = table, status = 0 };
+            TalbleFood talble = new TalbleFood { id_table = table , status = true };
+
             HoaDonService hoaDonService = new HoaDonService();
+            TableService tableService = new TableService();
+
             hoaDonService.addBill(bill);
+            tableService.updateStatus(talble);
         }
 
         private void dtgList_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -98,6 +109,11 @@ namespace FinalProject
             int id_bill = Int32.Parse(tbIDBill.Text);
             HoaDonService hoaDonService = new HoaDonService();
             tbTong.Text = hoaDonService.getSumPrice(id_bill).ToString();
+        }
+
+        private void btnTable_Click(object sender, EventArgs e)
+        {
+            LoadListTable();    
         }
     }
 }

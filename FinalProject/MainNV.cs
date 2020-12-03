@@ -34,6 +34,12 @@ namespace FinalProject
             this.Show();
         }
 
-      
+        private void xemThôngTinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Informations informations = new Informations();
+            this.Hide();
+            informations.ShowDialog();
+            this.Show();
+        }
     }
 }

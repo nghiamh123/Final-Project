@@ -122,5 +122,22 @@ namespace FinalProject
 
         }
 
+        private void LoadListNVBySearch(String find)
+        {
+            AccountSevice accountSevice = new AccountSevice();
+            dtgNV.DataSource = accountSevice.GetAccountsBySearch(find);
+        }
+
+        private void tbTimKiem_TextChanged(object sender, EventArgs e)
+        {
+            if(tbTimKiem.Text == "")
+            {
+                LoadListNV();
+            }
+            else
+            {
+                LoadListNVBySearch(tbTimKiem.Text);
+            }
+        }
     }
 }

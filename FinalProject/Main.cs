@@ -13,6 +13,7 @@ namespace FinalProject
 {
     public partial class Main : Form
     {
+        public static Account ac;
         public Main()
         {
             InitializeComponent();
@@ -47,8 +48,16 @@ namespace FinalProject
 
         private void Main_Load(object sender, EventArgs e)
         {
-            Account ac = Login.NV;
+            ac = Login.NV;
             lbName.Text = ac.name;
+        }
+
+        private void thôngTinTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Informations informations = new Informations();
+            this.Hide();
+            informations.ShowDialog();
+            this.Show();
         }
     }
 }

@@ -40,5 +40,22 @@ namespace RestaurantManagerSevice
 
             return sum;
         }
+
+        public List<Bill_info> getBillInfoByid(int id_bill)
+        {
+            return db.Bill_info.Where(bill => bill.id_bill == id_bill).ToList();
+        }
+
+        public List<Bill> getBillStatus()
+        {
+            return db.Bills.Where(bill => bill.status == 0).ToList();
+        }
+
+        public void updateBill(Bill bill)
+        {
+            Bill b = db.Bills.Where(bil => bil.id_bill == bill.id_bill).FirstOrDefault();
+            db.Entry(b).CurrentValues.SetValues(bill);
+            db.SaveChanges();
+        }
     }
 }
