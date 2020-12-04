@@ -215,5 +215,17 @@
   <ItemGroup>
     <None Include="Resources\clipart2711807.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-chef-vector-graphics-cooking-image-clip-art-mt-everest-restaurant-nepali-indian-cuisine-5ccd766de41625.7656074015569690699343.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant-staff-characters-include-chef-assistants-manager-waitress_48866-392.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lovepik_com-610556160-Shopping checkout woman vector material.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
