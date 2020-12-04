@@ -73,6 +73,17 @@ namespace FinalProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kisspng_chef_vector_graphics_cooking_image_clip_art_mt_everest_restaurant_nepali_indian_cuisine_5ccd766de41625_7656074015569690699343 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-chef-vector-graphics-cooking-image-clip-art-mt-everest-restaurant-nepali-" +
+                        "indian-cuisine-5ccd766de41625.7656074015569690699343", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kisspng_clip_art_restaurant_vector_graphics_illustration_b_5c75868c17f616_8805454415512060280982 {
             get {
                 object obj = ResourceManager.GetObject("kisspng-clip-art-restaurant-vector-graphics-illustration-b-5c75868c17f616.8805454" +
@@ -98,6 +109,16 @@ namespace FinalProject.Properties {
         internal static System.Drawing.Bitmap LOGOTDTU {
             get {
                 object obj = ResourceManager.GetObject("LOGOTDTU", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lovepik_com_610556160_Shopping_checkout_woman_vector_material {
+            get {
+                object obj = ResourceManager.GetObject("Lovepik_com-610556160-Shopping checkout woman vector material", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -138,6 +159,26 @@ namespace FinalProject.Properties {
         internal static System.Drawing.Bitmap pngegg__3_ {
             get {
                 object obj = ResourceManager.GetObject("pngegg (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngegg__4_ {
+            get {
+                object obj = ResourceManager.GetObject("pngegg (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap restaurant_staff_characters_include_chef_assistants_manager_waitress_48866_392 {
+            get {
+                object obj = ResourceManager.GetObject("restaurant-staff-characters-include-chef-assistants-manager-waitress_48866-392", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -124,8 +124,14 @@
   <data name="kisspng-clip-art-restaurant-vector-graphics-illustration-b-5c75868c17f616.8805454415512060280982" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-clip-art-restaurant-vector-graphics-illustration-b-5c75868c17f616.8805454415512060280982.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngegg (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngegg (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pngegg (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngegg (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restaurant-staff-characters-include-chef-assistants-manager-waitress_48866-392" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restaurant-staff-characters-include-chef-assistants-manager-waitress_48866-392.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngegg (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngegg (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,10 +145,16 @@
   <data name="user-icon-png-pnglogocom-133466" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user-icon-png-pnglogocom-133466.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LOGOTDTU" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LOGOTDTU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kisspng-chef-vector-graphics-cooking-image-clip-art-mt-everest-restaurant-nepali-indian-cuisine-5ccd766de41625.7656074015569690699343" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-chef-vector-graphics-cooking-image-clip-art-mt-everest-restaurant-nepali-indian-cuisine-5ccd766de41625.7656074015569690699343.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="clipart2711807" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\clipart2711807.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGOTDTU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGOTDTU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lovepik_com-610556160-Shopping checkout woman vector material" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lovepik_com-610556160-Shopping checkout woman vector material.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

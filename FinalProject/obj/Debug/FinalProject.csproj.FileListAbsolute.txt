@@ -51,7 +51,6 @@ E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\Entity
 E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\EntityFramework.SqlServer.xml
 E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\RestaurantManagerSevice.pdb
 E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\bin\Debug\RestaurantManagerSevice.dll.config
-E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache
 E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.DanhSachMon.resources
 E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.Informations.resources
 E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.Login.resources
@@ -70,3 +69,4 @@ E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalP
 E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
 E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.exe
 E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.pdb
+E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache

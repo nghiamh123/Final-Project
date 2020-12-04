@@ -95,5 +95,7 @@ namespace FinalProject
             HoaDonService hoaDonService = new HoaDonService();
             dtgBill.DataSource = hoaDonService.getBillStatus();
         }
+
+
     }
 }
