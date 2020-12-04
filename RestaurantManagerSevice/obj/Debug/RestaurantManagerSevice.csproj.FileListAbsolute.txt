@@ -21,4 +21,3 @@ E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\D
 E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CopyComplete
 E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.dll
 E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.pdb
-F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csprojAssemblyReference.cache

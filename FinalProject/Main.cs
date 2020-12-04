@@ -35,7 +35,10 @@ namespace FinalProject
 
         private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            ThongKeDoanhThu thongKeDoanhThu = new ThongKeDoanhThu();
+            this.Hide();
+            thongKeDoanhThu.ShowDialog();
+            this.Show();
         }
 
         private void danhSáchMónToolStripMenuItem_Click(object sender, EventArgs e)

@@ -93,9 +93,25 @@ namespace FinalProject
         private void LoadBill()
         {
             HoaDonService hoaDonService = new HoaDonService();
-            dtgBill.DataSource = hoaDonService.getBillStatus();
+            dtgBill.DataSource = hoaDonService.getBillStatus(0);
         }
 
+        private void getBillByTable(int id_table)
+        {
+            HoaDonService hoaDonService = new HoaDonService();
+            dtgBill.DataSource =  hoaDonService.GetBillsByTable(id_table);
+        }
 
+        private void tbSerachTable_TextChanged(object sender, EventArgs e)
+        {
+            if(tbSerachTable.Text == "")
+            {
+                LoadBill();
+            }
+            else
+            {
+                getBillByTable(Int32.Parse(tbSerachTable.Text));
+            }
+        }
     }
 }

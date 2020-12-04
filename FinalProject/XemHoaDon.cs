@@ -41,7 +41,7 @@ namespace FinalProject
         private void LoadBill()
         {
             HoaDonService hoaDonService = new HoaDonService();
-            dataGridView1.DataSource=hoaDonService.getBillStatus();
+            dataGridView1.DataSource=hoaDonService.getBillStatus(0);
         }
     }
 }

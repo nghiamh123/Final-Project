@@ -28,7 +28,7 @@ namespace FinalProject
         private void LoadListBill()
         {
             HoaDonService hoaDonService = new HoaDonService();
-            dtgList.DataSource = hoaDonService.getBillStatus();
+            dtgList.DataSource = hoaDonService.getBillStatus(0);
         }
 
         private void LoadListTable()
