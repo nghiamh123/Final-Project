@@ -18,6 +18,7 @@ namespace FinalProject
         {
             InitializeComponent();
             tbMatKhau.PasswordChar = '*';
+            
         }
 
         private void btnForget_Click(object sender, EventArgs e)
