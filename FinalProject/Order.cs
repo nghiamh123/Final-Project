@@ -20,6 +20,8 @@ namespace FinalProject
         {
             InitializeComponent();
             LoadListFood();
+            btnThemMonAn.Enabled = false;
+            btnXacNhan.Enabled = false;
         }
 
         private void LoadListFood()
@@ -81,7 +83,8 @@ namespace FinalProject
                 tableService.updateStatus(talble);
             }
 
-            
+            btnThemMonAn.Enabled = true;
+            btnTao.Enabled = false;
 
         }
 
@@ -131,6 +134,8 @@ namespace FinalProject
                 HoaDonService hoaDonService = new HoaDonService();
                 hoaDonService.addBillInfo(bill_Info);
             }
+
+            btnXacNhan.Enabled = true;
         }
 
         private void btnXacNhan_Click(object sender, EventArgs e)
@@ -138,6 +143,9 @@ namespace FinalProject
             int id_bill = Int32.Parse(tbIDBill.Text);
             HoaDonService hoaDonService = new HoaDonService();
             tbTong.Text = hoaDonService.getSumPrice(id_bill).ToString();
+
+            btnThemMonAn.Enabled = false;
+            btnTao.Enabled = true;
         }
 
         private void btnTable_Click(object sender, EventArgs e)

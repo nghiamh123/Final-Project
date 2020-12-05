@@ -31,5 +31,19 @@ namespace RestaurantManagerSevice
         {
             return db.Accounts.Where(ac => ac.username.ToLower().StartsWith(find.ToLower())).ToList();
         }
+
+        public void updateAccount(Account account)
+        {
+            Account ac = db.Accounts.Where(acc => acc.username == account.username).FirstOrDefault();
+            db.Entry(ac).CurrentValues.SetValues(account);
+            db.SaveChanges();
+        }
+
+        public void deleteAccount(Account account)
+        {
+            Account ac = db.Accounts.Where(acc => acc.username == account.username).FirstOrDefault();
+            db.Accounts.Remove(ac);
+            db.SaveChanges();
+        }
     }
 }

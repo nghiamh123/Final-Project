@@ -17,6 +17,7 @@ namespace FinalProject
         {
             InitializeComponent();
             LoadListNV();
+            
         }
 
         private void LoadListNV()
@@ -29,14 +30,16 @@ namespace FinalProject
      
         private void btnThemNhanVien_Click(object sender, EventArgs e)
         {
+            AccountSevice accountSevice = new AccountSevice();
             String txtUser = tbUsername.Text;
             String pass = tbPass.Text;
-            int role = Int32.Parse(tbRole.Text);
+            String role = tbRole.Text;
             String txtName = tbNameNV.Text;
             String phone = tbSDT.Text;
             String address = tbDiaChi.Text;
             String email = tbEmail.Text;
             bool gioitinh;
+            int type;
             if (rbFemale.Checked)
             {
                 gioitinh = false;
@@ -54,10 +57,33 @@ namespace FinalProject
             }
             else
             {
-                AccountSevice accountSevice = new AccountSevice();
-                Account account = new Account { username = txtUser, pass = pass, role = role, name = txtName, phone = phone, address = address, email = email, gioitinh = gioitinh, ngaysinh = birthday };
-                accountSevice.addNV(account);
-                LoadListNV();
+                if (role == "TN")
+                {
+                    type = 1;
+                    Account account = new Account { username = txtUser, pass = pass, role = type, name = txtName, phone = phone, address = address, email = email, gioitinh = gioitinh, ngaysinh = birthday };
+                    accountSevice.addNV(account);
+                    LoadListNV();
+                }
+                else if (role == "PV")
+                {
+                    type = 2;
+
+                    Account account = new Account { username = txtUser, pass = pass, role = type, name = txtName, phone = phone, address = address, email = email, gioitinh = gioitinh, ngaysinh = birthday };
+                    accountSevice.addNV(account);
+                    LoadListNV();
+                }
+                else if (role == "DB")
+                {
+                    type = 3;
+                    Account account = new Account { username = txtUser, pass = pass, role = type, name = txtName, phone = phone, address = address, email = email, gioitinh = gioitinh, ngaysinh = birthday };
+                    accountSevice.addNV(account);
+                    LoadListNV();
+                }
+                else
+                {
+                    MessageBox.Show("Sai vị trí");
+                }
+
             }
         }
 
@@ -70,10 +96,18 @@ namespace FinalProject
             tbDiaChi.Text = "";
             tbEmail.Text = "";
             tbSDT.Text = "";
+
+            btnThemNhanVien.Enabled = true;
+            btnUpdate.Enabled = false;
+            btnXoaNV.Enabled = false;
         }
 
         private void dtgNV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            btnThemNhanVien.Enabled = false;
+            btnUpdate.Enabled = true;
+            btnXoaNV.Enabled = true;
+
             int index = e.RowIndex;
             if (index < 0 || index >= dtgNV.RowCount)
             {
@@ -108,15 +142,15 @@ namespace FinalProject
             }
 
             if(role == 1) {
-                tbRole.Text = "Thu ngân";
+                tbRole.Text = "TN";
             }
             else if(role == 2)
             {
-                tbRole.Text = "Phục vụ";
+                tbRole.Text = "PV";
             }
             else
             {
-                tbRole.Text = "Đầu bếp";
+                tbRole.Text = "DB";
             }
 
 
@@ -142,6 +176,128 @@ namespace FinalProject
 
         private void ThongTinNV_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            AccountSevice accountSevice = new AccountSevice();
+
+            String txtUser = tbUsername.Text;
+            String pass = tbPass.Text;
+            String role = tbRole.Text;
+            String txtName = tbNameNV.Text;
+            String phone = tbSDT.Text;
+            String address = tbDiaChi.Text;
+            String email = tbEmail.Text;
+            bool gioitinh;
+            int type;
+            if (rbFemale.Checked)
+            {
+                gioitinh = false;
+            }
+            else
+            {
+                gioitinh = true;
+            }
+
+            DateTime birthday = dtNgaySinh.Value;
+
+            if (txtUser == "" || pass == "" || txtName == "" || phone == "" || address == "" || email == "")
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ");
+            }
+            else
+            {
+                if (role == "TN")
+                {
+                    type = 1;
+                    Account account = new Account { username = txtUser, pass = pass, role = type, name = txtName, phone = phone, address = address, email = email, gioitinh = gioitinh, ngaysinh = birthday };
+                    accountSevice.updateAccount(account);
+                    LoadListNV();
+                }
+                else if (role == "PV")
+                {
+                    type = 2;
+
+                    Account account = new Account { username = txtUser, pass = pass, role = type, name = txtName, phone = phone, address = address, email = email, gioitinh = gioitinh, ngaysinh = birthday };
+                    accountSevice.updateAccount(account);
+                    LoadListNV();
+                }
+                else if (role == "DB")
+                {
+                    type = 3;
+                    Account account = new Account { username = txtUser, pass = pass, role = type, name = txtName, phone = phone, address = address, email = email, gioitinh = gioitinh, ngaysinh = birthday };
+                    accountSevice.updateAccount(account);
+                    LoadListNV();
+                }
+                else
+                {
+                    MessageBox.Show("Sai vị trí");
+                }
+
+
+            }
+        }
+
+            private void btnXoaNV_Click(object sender, EventArgs e)
+        {
+            AccountSevice accountSevice = new AccountSevice();
+
+            String txtUser = tbUsername.Text;
+            String pass = tbPass.Text;
+            String role = tbRole.Text;
+            String txtName = tbNameNV.Text;
+            String phone = tbSDT.Text;
+            String address = tbDiaChi.Text;
+            String email = tbEmail.Text;
+            bool gioitinh;
+            int type;
+            if (rbFemale.Checked)
+            {
+                gioitinh = false;
+            }
+            else
+            {
+                gioitinh = true;
+            }
+
+            DateTime birthday = dtNgaySinh.Value;
+
+            if (txtUser == "" || pass == "" || txtName == "" || phone == "" || address == "" || email == "")
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ");
+            }
+            else
+            {
+                if(role == "TN")
+                {
+                    type = 1;
+                    Account account = new Account { username = txtUser, pass = pass, role = type, name = txtName, phone = phone, address = address, email = email, gioitinh = gioitinh, ngaysinh = birthday };
+                    accountSevice.updateAccount(account);
+                    LoadListNV();
+                }
+                else if(role == "PV")
+                {
+                    type = 2;
+                   
+                    Account account = new Account { username = txtUser, pass = pass, role = type, name = txtName, phone = phone, address = address, email = email, gioitinh = gioitinh, ngaysinh = birthday };
+                    accountSevice.deleteAccount(account);
+                    LoadListNV();
+                }
+                else if(role == "DB")
+                {
+                    type = 3;
+                    Account account = new Account { username = txtUser, pass = pass, role = type, name = txtName, phone = phone, address = address, email = email, gioitinh = gioitinh, ngaysinh = birthday };
+                    accountSevice.deleteAccount(account);
+                    LoadListNV();
+                }
+                else
+                {
+                    MessageBox.Show("Sai vị trí");
+                }
+                
+            }
 
         }
     }

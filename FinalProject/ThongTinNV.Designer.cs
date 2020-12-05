@@ -94,7 +94,7 @@
             // 
             this.dtgNV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgNV.Location = new System.Drawing.Point(8, 23);
-            this.dtgNV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgNV.Margin = new System.Windows.Forms.Padding(4);
             this.dtgNV.Name = "dtgNV";
             this.dtgNV.RowHeadersWidth = 51;
             this.dtgNV.Size = new System.Drawing.Size(573, 407);
@@ -112,7 +112,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel1.Location = new System.Drawing.Point(15, 105);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(417, 134);
             this.panel1.TabIndex = 2;
@@ -121,7 +121,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel2.Location = new System.Drawing.Point(17, 97);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(355, 1);
             this.panel2.TabIndex = 11;
@@ -130,7 +130,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel3.Location = new System.Drawing.Point(17, 62);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(359, 1);
             this.panel3.TabIndex = 12;
@@ -140,7 +140,7 @@
             this.tbTimKiem.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbTimKiem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbTimKiem.Location = new System.Drawing.Point(107, 74);
-            this.tbTimKiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbTimKiem.Margin = new System.Windows.Forms.Padding(4);
             this.tbTimKiem.Name = "tbTimKiem";
             this.tbTimKiem.Size = new System.Drawing.Size(267, 15);
             this.tbTimKiem.TabIndex = 4;
@@ -153,7 +153,7 @@
             this.cbSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.cbSearch.FormattingEnabled = true;
             this.cbSearch.Location = new System.Drawing.Point(107, 31);
-            this.cbSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbSearch.Margin = new System.Windows.Forms.Padding(4);
             this.cbSearch.Name = "cbSearch";
             this.cbSearch.Size = new System.Drawing.Size(265, 25);
             this.cbSearch.TabIndex = 3;
@@ -220,9 +220,9 @@
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.groupBox1.Location = new System.Drawing.Point(15, 246);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(417, 425);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
@@ -232,7 +232,7 @@
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel10.Location = new System.Drawing.Point(19, 332);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(340, 1);
             this.panel10.TabIndex = 35;
@@ -241,7 +241,7 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel9.Location = new System.Drawing.Point(19, 288);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(340, 1);
             this.panel9.TabIndex = 35;
@@ -250,7 +250,7 @@
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel8.Location = new System.Drawing.Point(21, 242);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(340, 1);
             this.panel8.TabIndex = 35;
@@ -259,7 +259,7 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel7.Location = new System.Drawing.Point(21, 194);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(340, 1);
             this.panel7.TabIndex = 35;
@@ -268,7 +268,7 @@
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel6.Location = new System.Drawing.Point(24, 149);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(340, 1);
             this.panel6.TabIndex = 35;
@@ -277,7 +277,7 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel5.Location = new System.Drawing.Point(24, 108);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(340, 1);
             this.panel5.TabIndex = 11;
@@ -286,7 +286,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel4.Location = new System.Drawing.Point(27, 70);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(340, 1);
             this.panel4.TabIndex = 11;
@@ -394,7 +394,7 @@
             this.tbSDT.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbSDT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbSDT.Location = new System.Drawing.Point(97, 210);
-            this.tbSDT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbSDT.Margin = new System.Windows.Forms.Padding(4);
             this.tbSDT.Name = "tbSDT";
             this.tbSDT.Size = new System.Drawing.Size(267, 16);
             this.tbSDT.TabIndex = 23;
@@ -405,7 +405,7 @@
             this.tbRole.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbRole.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbRole.Location = new System.Drawing.Point(97, 122);
-            this.tbRole.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbRole.Margin = new System.Windows.Forms.Padding(4);
             this.tbRole.Name = "tbRole";
             this.tbRole.Size = new System.Drawing.Size(267, 16);
             this.tbRole.TabIndex = 22;
@@ -415,7 +415,7 @@
             this.dtNgaySinh.CalendarFont = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtNgaySinh.Location = new System.Drawing.Point(99, 382);
-            this.dtNgaySinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtNgaySinh.Margin = new System.Windows.Forms.Padding(4);
             this.dtNgaySinh.Name = "dtNgaySinh";
             this.dtNgaySinh.Size = new System.Drawing.Size(265, 22);
             this.dtNgaySinh.TabIndex = 21;
@@ -426,7 +426,7 @@
             this.tbNameNV.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbNameNV.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbNameNV.Location = new System.Drawing.Point(95, 162);
-            this.tbNameNV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbNameNV.Margin = new System.Windows.Forms.Padding(4);
             this.tbNameNV.Name = "tbNameNV";
             this.tbNameNV.Size = new System.Drawing.Size(267, 16);
             this.tbNameNV.TabIndex = 20;
@@ -504,12 +504,13 @@
             this.btnXoaNV.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaNV.ForeColor = System.Drawing.Color.White;
             this.btnXoaNV.Location = new System.Drawing.Point(445, 625);
-            this.btnXoaNV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoaNV.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoaNV.Name = "btnXoaNV";
             this.btnXoaNV.Size = new System.Drawing.Size(135, 47);
             this.btnXoaNV.TabIndex = 3;
             this.btnXoaNV.Text = "DELETE";
             this.btnXoaNV.UseVisualStyleBackColor = false;
+            this.btnXoaNV.Click += new System.EventHandler(this.btnXoaNV_Click);
             // 
             // btnUpdate
             // 
@@ -518,12 +519,13 @@
             this.btnUpdate.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.Location = new System.Drawing.Point(603, 625);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(135, 47);
             this.btnUpdate.TabIndex = 5;
             this.btnUpdate.Text = "REPAIR";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // groupBox2
             // 
@@ -531,9 +533,9 @@
             this.groupBox2.Font = new System.Drawing.Font("Bell MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.groupBox2.Location = new System.Drawing.Point(445, 105);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(589, 443);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
@@ -573,7 +575,7 @@
             // 
             this.pictureBox1.Image = global::FinalProject.Properties.Resources.clipart2711807;
             this.pictureBox1.Location = new System.Drawing.Point(195, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(133, 62);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -596,7 +598,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "ThongTinNV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

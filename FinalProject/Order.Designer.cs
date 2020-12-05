@@ -102,7 +102,7 @@
             // 
             this.dtgList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgList.Location = new System.Drawing.Point(489, 325);
-            this.dtgList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtgList.Margin = new System.Windows.Forms.Padding(4);
             this.dtgList.Name = "dtgList";
             this.dtgList.RowHeadersWidth = 51;
             this.dtgList.Size = new System.Drawing.Size(556, 270);
@@ -117,7 +117,7 @@
             this.btnTao.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTao.ForeColor = System.Drawing.Color.White;
             this.btnTao.Location = new System.Drawing.Point(893, 625);
-            this.btnTao.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTao.Margin = new System.Windows.Forms.Padding(4);
             this.btnTao.Name = "btnTao";
             this.btnTao.Size = new System.Drawing.Size(152, 64);
             this.btnTao.TabIndex = 3;
@@ -145,9 +145,9 @@
             this.groupBox1.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.groupBox1.Location = new System.Drawing.Point(16, 78);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(465, 236);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
@@ -157,7 +157,7 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel5.Location = new System.Drawing.Point(35, 199);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(399, 1);
             this.panel5.TabIndex = 18;
@@ -166,7 +166,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel4.Location = new System.Drawing.Point(35, 155);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(399, 1);
             this.panel4.TabIndex = 18;
@@ -175,7 +175,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel3.Location = new System.Drawing.Point(35, 114);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(399, 1);
             this.panel3.TabIndex = 18;
@@ -184,7 +184,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel1.Location = new System.Drawing.Point(303, 37);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(131, 1);
             this.panel1.TabIndex = 18;
@@ -193,7 +193,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel2.Location = new System.Drawing.Point(35, 70);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(399, 1);
             this.panel2.TabIndex = 12;
@@ -223,7 +223,7 @@
             this.tbLoaiMon.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbLoaiMon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbLoaiMon.Location = new System.Drawing.Point(124, 87);
-            this.tbLoaiMon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbLoaiMon.Margin = new System.Windows.Forms.Padding(4);
             this.tbLoaiMon.Name = "tbLoaiMon";
             this.tbLoaiMon.Size = new System.Drawing.Size(309, 16);
             this.tbLoaiMon.TabIndex = 9;
@@ -234,10 +234,11 @@
             this.tbSoLuong.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbSoLuong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbSoLuong.Location = new System.Drawing.Point(124, 175);
-            this.tbSoLuong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbSoLuong.Margin = new System.Windows.Forms.Padding(4);
             this.tbSoLuong.Name = "tbSoLuong";
             this.tbSoLuong.Size = new System.Drawing.Size(309, 16);
             this.tbSoLuong.TabIndex = 8;
+            this.tbSoLuong.Text = "1";
             // 
             // label3
             // 
@@ -265,7 +266,7 @@
             this.tbGia.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbGia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbGia.Location = new System.Drawing.Point(124, 124);
-            this.tbGia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbGia.Margin = new System.Windows.Forms.Padding(4);
             this.tbGia.Name = "tbGia";
             this.tbGia.Size = new System.Drawing.Size(309, 16);
             this.tbGia.TabIndex = 5;
@@ -275,7 +276,7 @@
             this.tbTenMonAn.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbTenMonAn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbTenMonAn.Location = new System.Drawing.Point(124, 41);
-            this.tbTenMonAn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbTenMonAn.Margin = new System.Windows.Forms.Padding(4);
             this.tbTenMonAn.Name = "tbTenMonAn";
             this.tbTenMonAn.Size = new System.Drawing.Size(309, 16);
             this.tbTenMonAn.TabIndex = 3;
@@ -319,7 +320,7 @@
             this.tbTong.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbTong.Location = new System.Drawing.Point(156, 512);
-            this.tbTong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbTong.Margin = new System.Windows.Forms.Padding(4);
             this.tbTong.Name = "tbTong";
             this.tbTong.Size = new System.Drawing.Size(293, 16);
             this.tbTong.TabIndex = 5;
@@ -335,9 +336,9 @@
             this.groupBox2.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.groupBox2.Location = new System.Drawing.Point(21, 321);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(460, 129);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
@@ -347,7 +348,7 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel7.Location = new System.Drawing.Point(28, 101);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(399, 1);
             this.panel7.TabIndex = 12;
@@ -356,7 +357,7 @@
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel6.Location = new System.Drawing.Point(29, 64);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(399, 1);
             this.panel6.TabIndex = 11;
@@ -366,7 +367,7 @@
             this.tbSearchFoodName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbSearchFoodName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbSearchFoodName.Location = new System.Drawing.Point(135, 73);
-            this.tbSearchFoodName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbSearchFoodName.Margin = new System.Windows.Forms.Padding(4);
             this.tbSearchFoodName.Name = "tbSearchFoodName";
             this.tbSearchFoodName.Size = new System.Drawing.Size(293, 16);
             this.tbSearchFoodName.TabIndex = 3;
@@ -377,7 +378,7 @@
             this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(135, 34);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(292, 25);
             this.comboBox1.TabIndex = 2;
@@ -410,7 +411,7 @@
             this.btnThemMonAn.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemMonAn.ForeColor = System.Drawing.Color.White;
             this.btnThemMonAn.Location = new System.Drawing.Point(489, 625);
-            this.btnThemMonAn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemMonAn.Margin = new System.Windows.Forms.Padding(4);
             this.btnThemMonAn.Name = "btnThemMonAn";
             this.btnThemMonAn.Size = new System.Drawing.Size(152, 64);
             this.btnThemMonAn.TabIndex = 7;
@@ -437,7 +438,7 @@
             this.tbTable.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbTable.Location = new System.Drawing.Point(156, 463);
-            this.tbTable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbTable.Margin = new System.Windows.Forms.Padding(4);
             this.tbTable.Name = "tbTable";
             this.tbTable.Size = new System.Drawing.Size(293, 16);
             this.tbTable.TabIndex = 9;
@@ -456,9 +457,9 @@
             this.groupBox3.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.groupBox3.Location = new System.Drawing.Point(489, 85);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(373, 193);
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
@@ -468,7 +469,7 @@
             // 
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel12.Location = new System.Drawing.Point(13, 146);
-            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(343, 1);
             this.panel12.TabIndex = 13;
@@ -477,7 +478,7 @@
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel11.Location = new System.Drawing.Point(12, 106);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(343, 1);
             this.panel11.TabIndex = 13;
@@ -486,7 +487,7 @@
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel10.Location = new System.Drawing.Point(12, 63);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(343, 1);
             this.panel10.TabIndex = 13;
@@ -506,7 +507,7 @@
             this.tbIDBill.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbIDBill.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbIDBill.Location = new System.Drawing.Point(97, 80);
-            this.tbIDBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbIDBill.Margin = new System.Windows.Forms.Padding(4);
             this.tbIDBill.Name = "tbIDBill";
             this.tbIDBill.Size = new System.Drawing.Size(233, 16);
             this.tbIDBill.TabIndex = 10;
@@ -517,7 +518,7 @@
             this.tbNameKH.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbNameKH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbNameKH.Location = new System.Drawing.Point(87, 31);
-            this.tbNameKH.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbNameKH.Margin = new System.Windows.Forms.Padding(4);
             this.tbNameKH.Name = "tbNameKH";
             this.tbNameKH.Size = new System.Drawing.Size(268, 16);
             this.tbNameKH.TabIndex = 9;
@@ -639,7 +640,7 @@
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel8.Location = new System.Drawing.Point(55, 495);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(399, 1);
             this.panel8.TabIndex = 18;
@@ -648,7 +649,7 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel9.Location = new System.Drawing.Point(55, 545);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(399, 1);
             this.panel9.TabIndex = 19;
@@ -657,7 +658,7 @@
             // 
             this.pictureBox1.Image = global::FinalProject.Properties.Resources.LOGOTDTU;
             this.pictureBox1.Location = new System.Drawing.Point(104, 581);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(263, 108);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -668,7 +669,7 @@
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.panel13.Location = new System.Drawing.Point(491, 313);
-            this.panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(372, 1);
             this.panel13.TabIndex = 21;
@@ -701,7 +702,7 @@
             this.Controls.Add(this.dtgList);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Order";
             this.Text = "Order";
