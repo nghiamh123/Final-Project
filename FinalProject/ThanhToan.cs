@@ -8,6 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using RestaurantManagerSevice;
+using iTextSharp;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using System.IO;
+
 
 namespace FinalProject
 {
@@ -113,5 +118,38 @@ namespace FinalProject
                 getBillByTable(Int32.Parse(tbSerachTable.Text));
             }
         }
+
+        private void ThanhToan_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+                
+                Document document = new Document();
+                PdfWriter.GetInstance(document, new FileStream("C:/Bill.pdf", FileMode.Create));
+                document.Open();
+                // Add id bill to PrintBill
+                Paragraph idbill = new Paragraph(tbIDBill.Text);
+                document.Add(idbill);
+                //Add Client name to PrintBill
+                Paragraph clientName = new Paragraph(tbNameKH.Text);
+                document.Add(clientName);
+                //Add Invoice date to PrintBill
+                Paragraph invoicedate = new Paragraph(dtCheckIN.Text);
+                document.Add(invoicedate);
+                //Add table number to PrintBill
+                Paragraph tbnumber = new Paragraph(tbTable.Text);
+                document.Add(tbnumber);
+                //Add Staff to PrintBill
+                Paragraph staffname = new Paragraph(tbNameNV.Text);
+                document.Add(staffname);
+                Paragraph sum = new Paragraph(tbSum.Text);
+                document.Add(sum);
+                document.Close();
+        }
+
+        
     }
 }

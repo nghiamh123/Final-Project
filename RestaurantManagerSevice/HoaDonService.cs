@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace RestaurantManagerSevice
 {
     public class HoaDonService
@@ -107,5 +108,8 @@ namespace RestaurantManagerSevice
             }
             return sum;
         }
+
+
+        
     }
 }

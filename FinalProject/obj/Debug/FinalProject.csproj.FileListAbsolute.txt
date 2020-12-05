@@ -71,3 +71,36 @@ E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalP
 E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.pdb
 E:\2020-2021\CNPM\final project\Final-Project-main\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.ThongKeDoanhThu.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\FinalProject.exe.config
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\FinalProject.exe
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\FinalProject.pdb
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\EntityFramework.dll
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\RestaurantManagerSevice.dll
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\EntityFramework.xml
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\RestaurantManagerSevice.pdb
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\RestaurantManagerSevice.dll.config
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.DanhSachMon.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.Informations.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.Login.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.Main.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.MainDauBep.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.MainNV.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.MainThuNgan.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.Order.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.QuanLyKhachHang.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.ThanhToan.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.ThongKeDoanhThu.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.ThongTinNV.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.XemHoaDon.resources
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.csproj.GenerateResource.cache
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.csproj.CopyComplete
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.exe
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.pdb
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\itextsharp.dll
+C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\itextsharp.xml

@@ -8,6 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using iTextSharp;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 
 namespace FinalProject
 {
@@ -66,6 +69,9 @@ namespace FinalProject
 
             hoaDonService.addBill(bill);
             tableService.updateStatus(talble);
+
+            
+
         }
 
         private void dtgList_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -115,5 +121,19 @@ namespace FinalProject
         {
             LoadListTable();    
         }
+
+        private void dtgList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+
+
+
     }
 }

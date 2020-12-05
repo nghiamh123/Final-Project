@@ -21,3 +21,15 @@ E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\D
 E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CopyComplete
 E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.dll
 E:\2020-2021\CNPM\final project\Final-Project-main\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.pdb
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.dll.config
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.dll
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\bin\Debug\RestaurantManagerSevice.pdb
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\bin\Debug\EntityFramework.dll
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\bin\Debug\EntityFramework.xml
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CopyComplete
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.dll
+C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.pdb

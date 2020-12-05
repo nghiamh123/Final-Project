@@ -139,5 +139,10 @@ namespace FinalProject
                 LoadListNVBySearch(tbTimKiem.Text);
             }
         }
+
+        private void ThongTinNV_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

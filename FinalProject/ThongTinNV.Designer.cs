@@ -286,7 +286,7 @@
             this.rbFemale.AutoSize = true;
             this.rbFemale.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rbFemale.Location = new System.Drawing.Point(153, 284);
-            this.rbFemale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rbFemale.Margin = new System.Windows.Forms.Padding(2);
             this.rbFemale.Name = "rbFemale";
             this.rbFemale.Size = new System.Drawing.Size(58, 17);
             this.rbFemale.TabIndex = 31;
@@ -299,7 +299,7 @@
             this.rdMale.AutoSize = true;
             this.rdMale.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rdMale.Location = new System.Drawing.Point(63, 284);
-            this.rdMale.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdMale.Margin = new System.Windows.Forms.Padding(2);
             this.rdMale.Name = "rdMale";
             this.rdMale.Size = new System.Drawing.Size(47, 17);
             this.rdMale.TabIndex = 30;
@@ -313,7 +313,7 @@
             this.tbEmail.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbEmail.Location = new System.Drawing.Point(63, 244);
-            this.tbEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbEmail.Margin = new System.Windows.Forms.Padding(2);
             this.tbEmail.Name = "tbEmail";
             this.tbEmail.Size = new System.Drawing.Size(200, 13);
             this.tbEmail.TabIndex = 29;
@@ -324,7 +324,7 @@
             this.tbDiaChi.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbDiaChi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbDiaChi.Location = new System.Drawing.Point(63, 208);
-            this.tbDiaChi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbDiaChi.Margin = new System.Windows.Forms.Padding(2);
             this.tbDiaChi.Name = "tbDiaChi";
             this.tbDiaChi.Size = new System.Drawing.Size(200, 13);
             this.tbDiaChi.TabIndex = 28;
@@ -355,7 +355,7 @@
             this.tbUsername.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbUsername.Location = new System.Drawing.Point(74, 42);
-            this.tbUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbUsername.Margin = new System.Windows.Forms.Padding(2);
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(200, 13);
             this.tbUsername.TabIndex = 25;
@@ -366,7 +366,7 @@
             this.tbPass.Font = new System.Drawing.Font("Bell MT", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(117)))), ((int)(((byte)(214)))));
             this.tbPass.Location = new System.Drawing.Point(74, 67);
-            this.tbPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbPass.Margin = new System.Windows.Forms.Padding(2);
             this.tbPass.Name = "tbPass";
             this.tbPass.Size = new System.Drawing.Size(200, 13);
             this.tbPass.TabIndex = 24;
@@ -515,7 +515,7 @@
             this.btnThemNhanVien.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemNhanVien.ForeColor = System.Drawing.Color.White;
             this.btnThemNhanVien.Location = new System.Drawing.Point(567, 507);
-            this.btnThemNhanVien.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThemNhanVien.Margin = new System.Windows.Forms.Padding(2);
             this.btnThemNhanVien.Name = "btnThemNhanVien";
             this.btnThemNhanVien.Size = new System.Drawing.Size(101, 38);
             this.btnThemNhanVien.TabIndex = 7;
@@ -530,7 +530,7 @@
             this.btnClear.Font = new System.Drawing.Font("Bell MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
             this.btnClear.Location = new System.Drawing.Point(686, 507);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(2);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(84, 38);
             this.btnClear.TabIndex = 9;
@@ -568,6 +568,7 @@
             this.Name = "ThongTinNV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "ThongTinNV";
+            this.Load += new System.EventHandler(this.ThongTinNV_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgNV)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
