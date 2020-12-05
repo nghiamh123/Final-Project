@@ -89,7 +89,6 @@ C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.MainN
 C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.MainThuNgan.resources
 C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.Order.resources
 C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
-C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.QuanLyKhachHang.resources
 C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.ThanhToan.resources
 C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.ThongKeDoanhThu.resources
 C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.ThongTinNV.resources

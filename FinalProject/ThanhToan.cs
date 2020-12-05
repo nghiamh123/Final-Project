@@ -126,30 +126,56 @@ namespace FinalProject
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
-                
-            Document document = new Document();
-            PdfWriter.GetInstance(document, new FileStream("Bill/"+tbNameKH.Text+".pdf", FileMode.Create));
+
+            iTextSharp.text.Font fontHeader = FontFactory.GetFont(iTextSharp.text.Font.FontFamily.TIMES_ROMAN.ToString(), 20, iTextSharp.text.Font.BOLD, iTextSharp.text.BaseColor.BLACK);
+
+            Document document = new Document(); // Create new object file
+
+            PdfPTable infoTable = new PdfPTable(dtgBillInfo.Columns.Count); //Create table to add info
+
+            for (int j = 0; j < dtgBillInfo.Columns.Count; j++) //Add header
+            {
+                infoTable.AddCell(new Phrase(dtgBillInfo.Columns[j].HeaderText));
+            }
+
+            infoTable.HeaderRows = 1;
+
+            for (int i = 0; i < dtgBillInfo.Rows.Count; i++) // Add the actual rows 
+            {
+                for (int k = 0; k < dtgBillInfo.Columns.Count; k++)
+                {
+                    if (dtgBillInfo[k, i].Value != null)
+                    {
+                        infoTable.AddCell(dtgBillInfo[k, i].Value.ToString());
+                    }
+                }
+            }
+
+            PdfWriter.GetInstance(document, new FileStream("Bill/"+tbIDBill.Text+".pdf", FileMode.Create));
+            
             document.Open();
-            //Add tê nhà hàng
-            Paragraph nameRes = new Paragraph("Restaurant Managerment");
-            document.Add(nameRes);
-            // Add id bill to PrintBill
+            Paragraph nameRes = new Paragraph("Restaurant Managerment",fontHeader);
+            document.Add(nameRes);//Add name Restaurant
+            
             Paragraph idbill = new Paragraph("Bill số: "+tbIDBill.Text);
-            document.Add(idbill);
-            //Add Client name to PrintBill
+            document.Add(idbill);// Add id bill to PrintBill
+            
             Paragraph clientName = new Paragraph("Tên khách hàng: "+tbNameKH.Text);
-            document.Add(clientName);
-            //Add Invoice date to PrintBill
+            document.Add(clientName);//Add Client name to PrintBill
+            
             Paragraph invoicedate = new Paragraph("Ngày tạo: "+ dtCheckIN.Text);
-            document.Add(invoicedate);
-            //Add table number to PrintBill
+            document.Add(invoicedate);//Add Invoice date to PrintBill
+            
             Paragraph tbnumber = new Paragraph("Bàn số: "+tbTable.Text);
-            document.Add(tbnumber);
-            //Add Staff to PrintBill
-            Paragraph staffname = new Paragraph("Tên nhân viên thành toán: "+tbNameNV.Text);
-            document.Add(staffname);
+            document.Add(tbnumber);//Add table number to PrintBill
+            
+            Paragraph staffname = new Paragraph("Tên nhân viên thanh toán: "+tbNameNV.Text);
+            document.Add(staffname);//Add Staff to PrintBill
+            
+            document.Add(infoTable);//Add info buy from table data
+            
             Paragraph sum = new Paragraph("Tổng tiền: "+tbSum.Text);
-            document.Add(sum);
+            document.Add(sum);//Add total price
             document.Close();
 
             MessageBox.Show("In hóa đơn thành công");
