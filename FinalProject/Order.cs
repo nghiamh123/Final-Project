@@ -38,6 +38,7 @@ namespace FinalProject
         {
             TableService tableService = new TableService();
             dtgList.DataSource = tableService.getTable();
+            
         }
 
         private void Order_Load(object sender, EventArgs e)
@@ -49,26 +50,36 @@ namespace FinalProject
         private void btnHoaDon_Click(object sender, EventArgs e)
         {
             LoadListBill();
+            tbSearchFoodName.Enabled = false;
         }
         private void btnFood_Click(object sender, EventArgs e)
         {
             LoadListFood();
+            tbSearchFoodName.Enabled = true;
         }
 
         private void btnTao_Click(object sender, EventArgs e)
         {
 
-            DateTime checkIn = dtCheckin.Value;
-            int table = Int32.Parse(tbTable.Text);
+            if(tbTable.Text == "")
+            {
+                MessageBox.Show("Vui lòng chọn bàn");
+                tbTable.Focus();
+            }
+            else
+            {
+                DateTime checkIn = dtCheckin.Value;
+                int table = Int32.Parse(tbTable.Text);
 
-            Bill bill = new Bill { Datecheckin = checkIn, id_table = table, status = 0 };
-            TalbleFood talble = new TalbleFood { id_table = table , status = true };
+                Bill bill = new Bill { Datecheckin = checkIn, id_table = table, status = 0 };
+                TalbleFood talble = new TalbleFood { id_table = table, status = true };
 
-            HoaDonService hoaDonService = new HoaDonService();
-            TableService tableService = new TableService();
+                HoaDonService hoaDonService = new HoaDonService();
+                TableService tableService = new TableService();
 
-            hoaDonService.addBill(bill);
-            tableService.updateStatus(talble);
+                hoaDonService.addBill(bill);
+                tableService.updateStatus(talble);
+            }
 
             
 
@@ -98,16 +109,28 @@ namespace FinalProject
 
         private void btnThemMonAn_Click(object sender, EventArgs e)
         {
-            int id_bill = Int32.Parse(tbIDBill.Text);
-            int id_food = Int32.Parse(tbID.Text);
-            String name_nv = tbNameNV.Text;
-            String name_kh = tbNameKH.Text;
-            float soluong = Int32.Parse(tbSoLuong.Text);
+            if(tbIDBill.Text == "")
+            {
+                MessageBox.Show("Vui lòng nhập mã hóa đơn");
+                tbIDBill.Focus();
+            }else if(tbNameKH.Text == "")
+            {
+                MessageBox.Show("Vui lòng nhập tên khách hàng");
+                tbNameKH.Focus();
+            }
+            else
+            {
+                int id_bill = Int32.Parse(tbIDBill.Text);
+                int id_food = Int32.Parse(tbID.Text);
+                String name_nv = tbNameNV.Text;
+                String name_kh = tbNameKH.Text;
+                float soluong = Int32.Parse(tbSoLuong.Text);
 
-            Bill_info bill_Info = new Bill_info { id_bill = id_bill, customer_name = name_kh, employee_name = name_nv, id_food = id_food, count_food = soluong };
+                Bill_info bill_Info = new Bill_info { id_bill = id_bill, customer_name = name_kh, employee_name = name_nv, id_food = id_food, count_food = soluong };
 
-            HoaDonService hoaDonService = new HoaDonService();
-            hoaDonService.addBillInfo(bill_Info);
+                HoaDonService hoaDonService = new HoaDonService();
+                hoaDonService.addBillInfo(bill_Info);
+            }
         }
 
         private void btnXacNhan_Click(object sender, EventArgs e)
@@ -119,7 +142,8 @@ namespace FinalProject
 
         private void btnTable_Click(object sender, EventArgs e)
         {
-            LoadListTable();    
+            LoadListTable();
+            tbSearchFoodName.Enabled = false;
         }
 
         private void dtgList_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -132,8 +156,17 @@ namespace FinalProject
 
         }
 
-
-
-
+        private void tbSearchFoodName_TextChanged(object sender, EventArgs e)
+        {
+            if(tbSearchFoodName.Text == "")
+            {
+                LoadListFood();
+            }
+            else 
+            {
+                FoodService foodService = new FoodService();
+                dtgList.DataSource = foodService.getListFoodBySearch(tbSearchFoodName.Text);
+            }
+        }
     }
 }

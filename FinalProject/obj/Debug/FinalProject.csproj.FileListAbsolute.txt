@@ -15,7 +15,6 @@ C:\Users\PC\source\repos\FinalProject\FinalProject\obj\Debug\FinalProject.ThongT
 F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\FinalProject.exe.config
 F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\FinalProject.exe
 F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\FinalProject.pdb
-F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.DanhSachMon.resources
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.Informations.resources
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.Login.resources
@@ -25,7 +24,6 @@ F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.MainNV.resources
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.MainThuNgan.resources
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.Order.resources
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.Properties.Resources.resources
-F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.QuanLyKhachHang.resources
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.ThanhToan.resources
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.ThongTinNV.resources
 F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.XemHoaDon.resources
@@ -104,3 +102,7 @@ C:\Users\PC\Source\Repos\Final-Project\FinalProject\obj\Debug\FinalProject.pdb
 C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\itextsharp.dll
 C:\Users\PC\Source\Repos\Final-Project\FinalProject\bin\Debug\itextsharp.xml
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\BouncyCastle.Crypto.dll
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\itextsharp.dll
+F:\CNPM\PJCK\FinalProject\FinalProject\bin\Debug\itextsharp.xml
+F:\CNPM\PJCK\FinalProject\FinalProject\obj\Debug\FinalProject.csprojAssemblyReference.cache

@@ -35,5 +35,10 @@ namespace RestaurantManagerSevice
             db.Entry(f).CurrentValues.SetValues(food);
             db.SaveChanges();
         }
+
+        public List<Food>  getListFoodBySearch(String find)
+        {
+            return db.Foods.Where(f => f.foodname.ToLower().StartsWith(find.ToLower())).ToList();
+        }
     }
 }

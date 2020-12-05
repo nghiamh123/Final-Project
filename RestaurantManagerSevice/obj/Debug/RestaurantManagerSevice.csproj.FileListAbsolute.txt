@@ -33,3 +33,4 @@ C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\obj\Debug\Restaur
 C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csproj.CopyComplete
 C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.dll
 C:\Users\PC\source\repos\Final-Project\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.pdb
+F:\CNPM\PJCK\FinalProject\RestaurantManagerSevice\obj\Debug\RestaurantManagerSevice.csprojAssemblyReference.cache
